@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Naina's Portfolio</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .profile {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 20px;
+      padding: 30px 40px;
+      text-align: center;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 0 20px rgba(240, 192, 64, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .profile:hover {
+      transform: scale(1.02);
+    }
+
+    .profile img {
+      border-radius: 50%;
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border: 3px solid #f0c040;
+      margin-bottom: 15px;
+    }
+
+    .profile h1 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    .profile p {
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .profile p span {
+      color: #f0c040;
+      font-weight: 600;
+    }
+
+    .skills {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .skill {
+      background-color: #111;
+      color: #f0c040;
+      padding: 8px 14px;
+      border-radius: 25px;
+      font-size: 13px;
+      margin: 6px;
+      border: 1px solid #f0c04050;
+      box-shadow: 0 0 8px #f0c04022;
+      transition: 0.3s;
+    }
+
+    .skill:hover {
+      background-color: #f0c040;
+      color: #000;
+      transform: scale(1.1);
+    }
+    .download {
+  text-decoration: none;
+}
+
+
+    .download {
+      margin-top: 25px;
+      padding: 2px 18px 10px;
+      background-color: #bc8800;
+      color: black;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    .button-group {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+
+    .download:hover {
+      background-color: #ddb33c;
+    }
+
+    .icons {
+      margin-top: 20px;
+    }
+
+    .icon {
+      margin: 0 12px;
+      font-size: 1.4em;
+      color: #fff;
+      transition: color 0.3s;
+    }
+
+    .icon:hover {
+      color: #f0c040;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile">
+    <img src="profile.jpg" alt="Naina Modi">
+    <h1>Hi, I am<br>Naina Modi</h1>
+    <p>I love <span>coding </span> and to solve real-world problems</p>
+
+    <div class="skills">
+      <span class="skill">ReactJS</span>
+      <span class="skill">UI/UX</span>
+      <span class="skill">Javascript</span>
+      <span class="skill">PostgreSQL</span>
+      <span class="skill">Arduino ide</span>
+      <span class="skill">C</span>
+      <span class="skill">PostgreSQL</span>
+      <span class="skill">CSS</span>
+      <span class="skill">Figma</span>
+      <span class="skill">VSCode</span>
+    </div>
+
+    <div class="button-group">
+        <a href="CV.pdf" class="download" download>📄 Download CV</a>
+        <a href="certificates.html" class="download" target="_blank">🎓 Certificates</a>
+      </div>
+      
+
+
+    <div class="icons">
+        <a class="icon" href="https://github.com/Nainamodi20" target="_blank"><i class="fab fa-github"></i></a>
+        <a class="icon" href="https://x.com/nainamodi5" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a class="icon" href="https://www.linkedin.com/in/naina-modi-545b45274/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a class="icon" 
+   href="https://mail.google.com/mail/?view=cm&fs=1&to=nainamodi0001@gmail.com" 
+   target="_blank">
+   <i class="fas fa-envelope"></i>
+</a>
+
+      </div>      
+  </div>
+</body>
+</html>
